@@ -9,14 +9,8 @@ const Navbar = ({ auth: {isAuthenticated, loading }, logout }) => {
     <ul>
       <li>
         <Link to='/posts'>
-          <i class="fas fa-fire-alt"></i>{' '}
-          <span className="hide-sm">Hotest Stories</span>
-        </Link>
-      </li>
-      <li>
-        <Link to='/posts'>
           <i class="fas fa-stream"></i>{' '}
-          <span className="hide-sm">Latest Stories</span>
+          <span className="hide-sm">Stories</span>
         </Link>
       </li>
       <li>
@@ -55,7 +49,7 @@ const Navbar = ({ auth: {isAuthenticated, loading }, logout }) => {
   return (
     <nav className="navbar bg-dark">
       <h1>
-        <Link to='/'>
+        <Link to='/About'>
           <i class="far fa-newspaper"></i> FakeNews
         </Link>
       </h1>

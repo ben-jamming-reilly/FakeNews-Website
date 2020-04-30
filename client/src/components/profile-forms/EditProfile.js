@@ -130,8 +130,8 @@ const EditProfile = ({ profile: { profile, loading }, createProfile, getCurrentP
           type="button"
           className="btn btn-dark">
           Add Social Network Links
+          <span> (Optional)</span>
         </button>
-        <span>Optional</span>
       </div>
 
       {displaySocialInputs &&
